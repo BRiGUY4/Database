@@ -1,0 +1,53 @@
+{"Sale": {
+  "1":{
+	"Customers": [{"custid":1,
+	                "fname":"John",
+				          "lname":"Doe",
+				          "address":"191 Washington Ave",
+				          "city":"Albany",
+				          "zip":"12220",
+				          "state":"NY"}],
+				   
+	"Items": [{"itemno":1,
+	            "itemname":"Gaggia Brera",
+	            "description":"Super Automatic Espresso Machine",
+	            "price":450},
+	           
+	          {"itemno":2,
+	            "itemname":"DeLonghi",
+	            "description":"Premium Espresso Machine",
+	            "price":750}],
+	           
+  "Orders": [{"orderno":1,
+                "orderdate":"9/29/19 11:45",
+                "trackingno":"T001",
+                "custid":1}],
+                
+  "OrderItems":[{"orderno":1,
+                  "itemno":[1,2]}]
+  },
+                  
+  "2":{
+  "Customers": [{"custid":2,
+	                "fname":"Mary",
+				          "lname":"Smith",
+				          "address":"10 Dover Street",
+				          "city":"Albany",
+				          "zip":"12243",
+				          "state":"NY"}],
+				   
+	"Items": [{"itemno":3,
+	            "itemname":"Breville",
+	            "description":"The Barista Express Machine",
+	            "price":250}],
+	           
+  "Orders": [{"orderno":2,
+                "orderdate":"10/20/2019 6:00",
+                "trackingno":"T002",
+                "custid":2}],
+                
+  "OrderItems":[{"orderno":2,
+                  "itemno":3}]
+  }
+}
+}
